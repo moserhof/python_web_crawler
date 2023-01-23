@@ -1,0 +1,107 @@
+/* CSS variables */
+:root {
+    --pi: 3.141592653589793px;
+    --dark-gray: dimgray;
+    --champions-league: #0726D9;
+    --europa-yellow: yellow;
+    --relegation-red: #D90404;
+}
+
+/* Remove the CSS border collapse so the borders do not stack on each other. Just make it a simple line */
+table {
+    margin: 0 auto;
+    border-collapse: separate;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+    font-family: monospace;
+}
+
+td {
+    border: 0.369px solid black;
+    background-color: #F2F2F2;
+    font-size: larger;
+    padding: 11px;
+}
+
+/* Select the table's main column headers that have a scope attribute */
+th[scope] {
+    background-color: var(--dark-gray);
+    color: #fff;
+    padding: 9px;
+    border: 0.369px solid black;    
+}
+
+/* Alternate colors to aid in table comprehension  */
+tbody > tr :nth-child(even) {
+    background-color: silver;
+}
+
+
+/* Align the table cells. The team names should be aligned left the rest of the data will be aligned center */
+tbody > tr > td {
+    text-align: center;
+}
+
+.t-body tr > td:first-child {
+    text-align: left;
+}
+
+/* Style the table to include color visuals for Champions League, Europa League, and Relegation */
+/**/
+/**/
+/**/
+
+/* Top 4 teams are qualified for Champions League */
+.champions-league b {
+    background: var(--champions-league);
+    padding: 2.32px;
+    border: 2.369px solid black;
+    border-radius: 7pt;
+    color:  #F2F2F2;
+}
+
+/* 5th place qualifies for Europa League */
+.europa-league b {
+    background: var(--europa-yellow);
+    padding: 2.32px;
+    border: 2.369px solid black;
+    border-radius: 7pt;
+}
+
+/* Bottom 3 teams are in danger of being relegated */
+.relegation b {
+    background: var(--relegation-red);
+    padding: 2.32px;
+    border: 2.369px solid black;
+    border-radius: 7pt;
+    color:  #F2F2F2;
+}
+
+footer {
+    text-align: center;
+}
+
+.legend ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 1.3px;
+    font-family: monospace;
+}
+
+.cl {
+    border: 3px solid black;
+    background: var(--champions-league);
+    color: #F2F2F2;
+}
+
+.europa {
+    background: var(--europa-yellow);
+    border: 3px solid black;
+    color: black;
+}
+
+.rele {
+    background: var(--relegation-red);
+    border: 3px solid black;
+    color: #F2F2F2;
+}
