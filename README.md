@@ -8,9 +8,8 @@
 - Python
 - HTML
 - CSS
-- Regular Expressions
 
-## Python Package's (PyPI)
+## Python Packages (PyPI)
 - Urllib.request, Urllib.parse, Urllib.error
     - to send GET request and read in response
 - SSL
@@ -29,11 +28,11 @@
 ### This is the page that we crawl
 <img width="1397" alt="espn_page" src="https://user-images.githubusercontent.com/33382461/213992247-59dd65ca-c734-4875-a7b9-9ac7e6dd2999.png">
 
-### Using developer tools, we can take a gander at the HTML markup used by ESPN. At first glance, it appears that there's not much going on, but there's surprising complexity under the hood
+### Using browser developer tools, we can take a gander at the HTML markup used by ESPN. As you can see, it can get pretty filthy in there with all the nested elements classnames.
 <img width="1397" alt="espn_with_dev_tools" src="https://user-images.githubusercontent.com/33382461/213993281-973732c0-8e52-4e23-a714-5411d2ec1e58.png">
 
 ---
-### Our Python web crawler needs to creep around ESPN and _only_ extract the data we really care about, ignoring the rest of the noise!
+### Our Python web crawler needs to creep around ESPN's HTML markup and _only_ extract the data we really care about, ignoring the rest.
 - Table column names
 - Team names
 - Row stats for each team, which include the following:
@@ -47,7 +46,7 @@
     - Goal difference
     - Total points earned
 
-I have included lots of code comments in all the files invovled with this project to help with understanding what the heck is going on. To run this yourself, fork the repo and call the Python script via your command line to see the magic unfold 🪄
+There are code comments galore, this helps when debugging or adding new functionality. To run this yourself, fork the repo and call the Python script via your command line to see the magic unfold --> The crawler captures an accurate snapshot of the BPL Rankings and crafts its own HTML document that renders a semantically sharp, polished table of standings 🪄
 
 `$ python3 script.py`
 
