@@ -4,7 +4,7 @@
 
 ##### After all table data has been mined, programatically build a new HTML document called `bpl_standings.html`. The final product is a semantically excellent and fully styled HTML table (styles included under `styles.css`)!
 
-## Programming langauges
+## Programming languages
 - Python
 - HTML
 - CSS
