@@ -28,7 +28,7 @@
 ### This is the page that we crawl
 <img width="1397" alt="espn_page" src="https://user-images.githubusercontent.com/33382461/213992247-59dd65ca-c734-4875-a7b9-9ac7e6dd2999.png">
 
-### Using browser developer tools, we can take a gander at the HTML markup used by ESPN. As you can see, it can get pretty filthy in there with all the nested elements classnames.
+### Using browser developer tools, we can take a gander at the HTML markup used by ESPN. We also have a way to scope out the CSS used.
 <img width="1397" alt="espn_with_dev_tools" src="https://user-images.githubusercontent.com/33382461/213993281-973732c0-8e52-4e23-a714-5411d2ec1e58.png">
 
 ---
@@ -46,7 +46,7 @@
     - Goal difference
     - Total points earned
 
-There are code comments galore, this helps when debugging or adding new functionality. To run this yourself, fork the repo and call the Python script via your command line to see the magic unfold --> The crawler captures an accurate snapshot of the BPL Rankings and crafts its own HTML document that renders a semantically sharp, polished table of standings 🪄
+There are code comments galore, this helps when debugging or adding new functionality. To run this yourself, fork the repo and call the Python script via your command line to see the magic unfold --> The crawler captures an accurate snapshot of the BPL Rankings and crafts its own HTML document that renders a semantically sharp, polished table of standings. Also included: Champions League, Europa, and the dreaded Relegation are easily recognizable 🪄
 
 `$ python3 script.py`
 
