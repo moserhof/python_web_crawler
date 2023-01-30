@@ -51,8 +51,8 @@ There are code comments galore, this helps when debugging or adding new function
 ### How to run
 
 1. Fork and download the the repo
-2. Go into the `python_web_crawler` folder | --> `$ cd python_web_crawler`
-3. Open your Terminal
+2. Open your favorite command line (iTerm, Terminal etc.)
+3. Go into the `python_web_crawler` folder | --> `$ cd python_web_crawler`
 4. Type `$ python3 script.py`
 
 The `bpl_standings.html` that came with the download will now be replaced with a brand new, _updated __BPL Standings Table___ rendered with elegantly simple CSS.
