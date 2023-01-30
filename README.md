@@ -46,13 +46,24 @@
     - Goal difference
     - Total points earned
 
-There are code comments galore, this helps when debugging or adding new functionality. To run this yourself, fork the repo and call the Python script via your command line to see the magic unfold --> The crawler captures an accurate snapshot of the BPL Rankings and crafts its own HTML document that renders a semantically sharp, polished table of standings. Also included: Champions League, Europa, and the dreaded Relegation are easily recognizable 🪄
+There are code comments galore, this helps when debugging or adding new functionality.
 
-`$ python3 script.py`
+### How to run
 
-Doing this will set things in motion and build out the `bpl_standings.html` and place it in your current directory. If one already exists, it will get overwritten. 
+1. Fork and download the the repo
+2. Open your Terminal
+3. type `$ python3 script.py`
 
-Additionally, you can open the `bpl_standings.html` that's already included in the forked repo in your browser to see the **finished product**. The `styles.css` should already be hooked up as well!
+The `bpl_standings.html` that came with the download will now be replaced with a brand new, _updated __BPL Standings Table___ rendered with elegantly simple CSS.
+
+💥 *BONUS* 💥 Current EU League statuses and more!
+
+- Champions League
+- Europa League
+- Relegation 😱
+
+
+The `styles.css` is already be hooked up for you! Additionally, you can open the `bpl_standings.html` file that's already included in the forked repo in your browser to see the **finished product**.
 
 `$ open bpl_standings.html`
 
