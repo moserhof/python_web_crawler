@@ -50,8 +50,8 @@ There are code comments galore, this helps when debugging or adding new function
 
 ### How to run
 
-1. Fork and download the the repo
-2. Open your favorite command line (iTerm, Terminal etc.)
+1. Open your favorite command line (iTerm, Terminal etc.) 
+2. Fork and download the the repo
 3. Go into the `python_web_crawler` folder | --> `$ cd python_web_crawler`
 4. Type `$ python3 script.py`
 
