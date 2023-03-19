@@ -1,8 +1,8 @@
 # 🕸️ | ESPN Web Crawler
 
-##### Using Python, send a GET request to ESPN's [Barclay Premier League Standings Table](https://www.espn.com/soccer/standings/_/league/ENG.1/) and crawl through the HTML to locate and heist all the juicy data.
+##### Using Python, send a GET request to ESPN's [Barclay Premier League Standings Table](https://www.espn.com/soccer/standings/_/league/ENG.1/) and crawl through the HTML Response to locate and capture the *Barclay Premier League* standings data.
 
-##### After all table data has been mined, programatically build a new HTML document called `bpl_standings.html`. The final product is a semantically excellent and fully styled HTML table (styles included under `styles.css`)!
+##### After all table data has been mined, programatically build a new HTML document called `bpl_standings.html`. The final product is a minimalist, semantic HTML table (styles included under `styles.css`)!
 
 ## Programming languages
 - Python
