@@ -55,7 +55,9 @@ There are code comments galore, this helps when debugging or adding new function
 3. Go into the `python_web_crawler` folder | --> `$ cd python_web_crawler`
 4. Type `$ python3 script.py`
 
-The `bpl_standings.html` that came with the download will now be replaced with a brand new, _updated __BPL Standings Table___ rendered with elegantly simple CSS.
+Open the `bpl_standings.html` file that got generated. Behold the _updated __BPL Standings Table___, rendered with elegantly simple CSS.
+
+`$ open bpl_standings.html`
 
 💥 **BONUS** 💥 Current EU League statuses and more!
 
@@ -64,9 +66,7 @@ The `bpl_standings.html` that came with the download will now be replaced with a
 - Relegation 🔴
 
 
-The `styles.css` is already be hooked up for you! Additionally, you can open the `bpl_standings.html` file that's already included in the forked repo in your browser to see the **finished product**.
-
-`$ open bpl_standings.html`
+The `styles.css` is already hooked up for you!
 
 ---
 # The final result!
