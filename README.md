@@ -1,4 +1,4 @@
-# 🕸️ | ESPN Web Crawler
+# 🕸️ | Python Command Line Tool: HTML table build of Premier League Standings via ESPN
 
 ##### Using Python, send a GET request to ESPN's [Barclay Premier League Standings Table](https://www.espn.com/soccer/standings/_/league/ENG.1/) and crawl through the HTML Response to locate and capture the *Barclay Premier League* standings data.
 
