@@ -40,7 +40,7 @@ def get_bpl_team_names(soup_html):
     # ['Arsenal', 'Manchester City', 'Newcastle United', 'Manchester United', 'Tottenham Hotspur', 'Brighton & Hove Albion', 'Fulham', 'Liverpool', 'Brentford', 'Chelsea', 'Aston Villa', 'Crystal Palace', 'Nottingham Forest', 'Leicester City', 'West Ham United', 'Leeds United', 'Wolverhampton Wanderers', 'AFC Bournemouth', 'Everton', 'Southampton']
 
 def get_column_headers():
-    return ['2023-2024', 'GP', 'W', 'D', 'L', 'F', 'A', 'GD', 'P']
+    return ['2024-2025', 'GP', 'W', 'D', 'L', 'F', 'A', 'GD', 'P']
 
 
 ### Return a list of all team's standings data
